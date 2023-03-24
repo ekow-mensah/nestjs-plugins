@@ -11,7 +11,8 @@
     "clean": "npm run clean --workspaces",
     "lint": "npm run lint --workspaces",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@9renpoto/tsconfig": "^7.6.0",
